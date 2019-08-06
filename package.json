@@ -4,7 +4,7 @@
   "description": "A simple blog application",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "nodemon ./bin/www"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -23,5 +23,8 @@
     "sqlite3": "^4.0.9"
   },
   "author": "Andrew Chalkley <andrew@teamtreehouse.com> (http://teamtreehouse.com/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
 }
